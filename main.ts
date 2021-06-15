@@ -8,10 +8,10 @@ joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P15, joystickbit.ButtonType
     radio.sendString("right")
 })
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P13, joystickbit.ButtonType.down, function () {
-    radio.sendString("left")
+    radio.sendString("forward")
 })
 joystickbit.onButtonEvent(joystickbit.JoystickBitPin.P12, joystickbit.ButtonType.down, function () {
-    radio.sendString("forward")
+    radio.sendString("left")
 })
 joystickbit.initJoystickBit()
 radio.setGroup(1)
